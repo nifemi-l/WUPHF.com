@@ -10,7 +10,7 @@ def main():
 
     # reversed this because of faster lookups
     # - would otherwise need to loop through the dict later to find the corresponding key (name, in that case)
-    # added additional initials to date to account for same birthdays. given initials will be different
+    # added initials to the date to account for same birthdays. given initials will be different
     BIRTHDAYS = {
         # dummies
         '2024-02-16-GLN': 'Glen',
